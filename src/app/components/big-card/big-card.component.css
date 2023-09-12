@@ -8,13 +8,11 @@
 .big__card__photo > img {
   height: 55vh;
   width: 100%;
-  border: 1px solid red;
 }
 
 .big__card__title {
   height: 10vh;
   width: 83%;
-  border: 1px solid red;
 }
 
 .big__card__title > h1 {
@@ -24,7 +22,6 @@
 .big__card__description {
   height: 15vh;
   width: 83%;
-  border: 1px solid red;
 }
 
 .big__card__description > p {

@@ -1,10 +1,9 @@
 <div class="container__small__card">
-  <img
-    src="https://media.istockphoto.com/id/1317323736/pt/foto/a-view-up-into-the-trees-direction-sky.jpg?s=170667a&w=is&k=20&c=O0FGzgmkQxo1rjj2zOK5JEWcULjFpr8LlKt9OOvd4tk="
-  />
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi dolore
-    asperiores aperiam. Repudiandae amet quibusdam, asperiores natus voluptatem
-    dolor distinctio atque quo et facilis ea fugiat omnis. Labore, quidem.
-  </p>
+  <img src="{{ photoCoverSmall }}" />
+  <h1>
+    <a [routerLink]="['content', Id]">
+      {{ smallCardTitle }}
+    </a>
+  </h1>
 </div>
+<hr />

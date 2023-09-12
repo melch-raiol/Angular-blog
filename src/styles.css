@@ -10,9 +10,16 @@
 .container__card {
   height: 90vh;
   width: 50vw;
-  border: 1px solid red;
 }
 
 h1 {
   font-family: "segoe UI";
+}
+
+p {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
 }
