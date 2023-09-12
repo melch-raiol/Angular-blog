@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {dataBase} from '../../data/dataBase'
 
 @Component({
   selector: 'app-small-card',
@@ -17,6 +18,7 @@ export class SmallCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
