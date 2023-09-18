@@ -1,9 +1,12 @@
 <div class="container__small__card">
   <img src="{{ photoCoverSmall }}" />
-  <h1>
-    <a [routerLink]="['content', Id]">
-      {{ smallCardTitle }}
-    </a>
-  </h1>
+  <div class="div-information">
+    <h1>
+      <a [routerLink]="['content', Id]">
+        {{ smallCardTitle }}
+      </a>
+    </h1>
+    <button [routerLink]="['content', Id]">mais infromações</button>
+  </div>
 </div>
 <hr />

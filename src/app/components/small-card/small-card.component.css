@@ -17,3 +17,26 @@
   width: 60%;
   font-size: 2rem;
 }
+
+.div-information {
+  height: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.div-information > button {
+  height: 30%;
+  width: 50%;
+  background-color: gray;
+  font-size: 1.4rem;
+  border: 4px solid rgb(46, 45, 45);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.div-information > button:hover {
+  border: none;
+}
